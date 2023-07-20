@@ -1,9 +1,11 @@
+import Header from "./Components/Header/Header";
+import './main.scss';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+        <Header />
     </div>
   );
 }
