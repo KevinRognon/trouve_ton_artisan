@@ -26,7 +26,7 @@ export default function Header () {
         else {
             gsap.to(".links",
                 {
-                    right: "-100px",
+                    right: "-150px",
                     stagger: 0.06
                 }
             )
