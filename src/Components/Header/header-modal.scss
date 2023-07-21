@@ -1,0 +1,30 @@
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 100dvw;
+  background-color: rgba(0, 0, 0, 0.53);
+
+  display: none;
+  justify-content: center;
+
+
+  .searchbar_modal {
+    margin-top: 20%;
+    form {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        color: white;
+      }
+
+      input {
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}

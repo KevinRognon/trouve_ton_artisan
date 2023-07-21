@@ -28,10 +28,24 @@ header {
 
 .menu-hamburger {
   position: relative;
+
+  .barres_menu {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+
+  }
+
   .deroulant_menu {
     text-align: right;
     position: absolute;
     top: 30px;
     right: 0;
+    overflow-x: hidden;
+
+    .links {
+      position: relative;
+      right: -100px;
+    }
   }
 }
