@@ -17,14 +17,14 @@ export default function HeaderModal ({showModal, setModalState}) {
 
     function closeModal () {
         gsap.to(".overlay",
-            {left: "+100%", duration: 0.3}
+            {left: "+100%", ease: "power4", duration: 0.5}
         )
         setModalState();
     }
 
     function openModal () {
         gsap.to(".overlay",
-            {left: "0", duration: 0.3}
+            {left: "0", ease: "power4", duration: 0.5}
         )
     }
 
