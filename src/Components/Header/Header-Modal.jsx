@@ -1,8 +1,10 @@
 import './header-modal.scss';
-import {useEffect, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import {gsap} from "gsap";
 
 export default function HeaderModal ({showModal, setModalState}) {
+
+    const recherche = useRef(null);
 
 
     useEffect(() => {
@@ -14,12 +16,16 @@ export default function HeaderModal ({showModal, setModalState}) {
     }, [showModal])
 
     function closeModal () {
-        gsap.to(".overlay", {display: "none", duration: 0})
+        gsap.to(".overlay",
+            {left: "+100%", duration: 0.3}
+        )
         setModalState();
     }
 
     function openModal () {
-        gsap.to(".overlay", {display: "flex", duration: 0})
+        gsap.to(".overlay",
+            {left: "0", duration: 0.3}
+        )
     }
 
     function HandleInput (e) {
@@ -28,6 +34,7 @@ export default function HeaderModal ({showModal, setModalState}) {
 
     function HandleSubmit(e) {
         e.preventDefault();
+        console.log(recherche.current.value = "");
         closeModal();
     }
 
@@ -36,7 +43,8 @@ export default function HeaderModal ({showModal, setModalState}) {
             <div className="searchbar_modal">
                 <form onSubmit={HandleSubmit}>
                     <h1>Recherchez votre artisan</h1>
-                    <input onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
+                    <input ref={recherche} onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
+                    <button type="submit" className="btn">Rechercher</button>
                 </form>
             </div>
         </div>
