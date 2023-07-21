@@ -38,13 +38,15 @@ export default function HeaderModal ({showModal, setModalState}) {
         closeModal();
     }
 
+
     return (
         <div className="overlay" onClick={closeModal}>
             <div className="searchbar_modal">
                 <form onSubmit={HandleSubmit}>
                     <h1>Recherchez votre artisan</h1>
                     <input ref={recherche} onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
-                    <button type="submit" className="btn">Rechercher</button>
+                    <button type="submit" className="btn-rechercher btn">Rechercher</button>
+                    <button onClick={closeModal} className="btn-fermer btn btn-danger">Fermer</button>
                 </form>
             </div>
         </div>

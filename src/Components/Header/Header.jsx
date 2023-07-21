@@ -22,12 +22,44 @@ export default function Header () {
                     stagger: 0.06
                 }
             )
+            gsap.to(".barre_haute",
+                {
+                    rotation: 45,
+                    y: 5,
+                    ease: "elastic",
+                    duration: 1
+                }
+            )
+            gsap.to(".barre_basse",
+                {
+                    rotation: -45,
+                    y: -5,
+                    ease: "elastic",
+                    duration: 1
+                }
+            )
         }
         else {
             gsap.to(".links",
                 {
                     right: "-150px",
                     stagger: 0.06
+                }
+            )
+            gsap.to(".barre_haute",
+                {
+                    rotation: 0,
+                    y: 0,
+                    ease: "elastic",
+                    duration: 1
+                }
+            )
+            gsap.to(".barre_basse",
+                {
+                    rotation: 0,
+                    y: 0,
+                    ease: "elastic",
+                    duration: 1
                 }
             )
         }
@@ -54,8 +86,8 @@ export default function Header () {
                         </div>
                         <li className="menu-hamburger d-flex flex-column align-items-center gap-1">
                             <div onClick={toggleMenu} className="barres_menu">
-                                <img src={barre_menu} alt="Barre menu hamburger"/>
-                                <img src={barre_menu} alt="Barre menu hamburger"/>
+                                <img className="barre_haute" src={barre_menu} alt="Barre menu hamburger"/>
+                                <img className="barre_basse" src={barre_menu} alt="Barre menu hamburger"/>
                             </div>
                             <ul className="deroulant_menu d-flex flex-column gap-3">
                                 <li className="links">Accueil</li>
