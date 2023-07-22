@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae04edda-6cc9-4f9c-a7bb-cda88b2b256f" name="Changes" comment="" />
+    <list default="true" id="ae04edda-6cc9-4f9c-a7bb-cda88b2b256f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header-Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header-Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/header-modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/header-modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +51,15 @@
       <recent name="C:\Users\krognon\Desktop\Perso\trouve_ton_artisan\src\Components\Header" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +70,7 @@
       <updated>1689924274854</updated>
       <workItem from="1689924279855" duration="1132000" />
       <workItem from="1690023803446" duration="54000" />
+      <workItem from="1690026968020" duration="3515000" />
     </task>
     <servers />
   </component>
