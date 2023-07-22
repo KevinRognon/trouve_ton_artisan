@@ -1,7 +1,7 @@
 import loupe from './Assets/loupe.svg';
 import barre_menu from './Assets/barre_menu.svg';
 import './header.scss';
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {gsap} from "gsap";
 import HeaderModal from "./Header-Modal";
 
