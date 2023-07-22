@@ -1,11 +1,27 @@
 import Header from "./Components/Header/Header";
 import './main.scss';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Batiment from "./Pages/Batiment";
+import Services from "./Pages/Services";
+import Fabrication from "./Pages/Fabrication";
+import Alimentation from "./Pages/Alimentation";
+import Accueil from "./Pages/Accueil";
 
 
 function App() {
   return (
     <div className="App">
-        <Header />
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Header />}>
+                    <Route path="/" index element={<Accueil />} />
+                    <Route path="/batiment" element={<Batiment />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/fabrication" element={<Fabrication />} />
+                    <Route path="/alimentation" element={<Alimentation />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
     </div>
   );
 }

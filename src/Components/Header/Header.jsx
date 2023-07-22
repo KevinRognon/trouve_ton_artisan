@@ -4,6 +4,7 @@ import './header.scss';
 import {useState} from "react";
 import {gsap} from "gsap";
 import HeaderModal from "./Header-Modal";
+import {Link, NavLink, Outlet} from "react-router-dom";
 
 
 export default function Header () {
@@ -77,7 +78,7 @@ export default function Header () {
             <header className="col-12 h-2">
                 <nav className="h-100 d-flex justify-content-between">
 
-                    <div className="logo_site"></div>
+                    <Link to="/" className="logo_site"></Link>
 
                     <ul className="h-100 d-flex flex-row align-items-center gap-2 me-3">
 
@@ -90,11 +91,11 @@ export default function Header () {
                                 <img className="barre_basse" src={barre_menu} alt="Barre menu hamburger"/>
                             </div>
                             <ul className="deroulant_menu d-flex flex-column gap-3">
-                                <li className="links">Accueil</li>
-                                <li className="links">Bâtiment</li>
-                                <li className="links">Services</li>
-                                <li className="links">Fabrication</li>
-                                <li className="links">Alimentation</li>
+                                <li onClick={toggleMenu} className="links"><NavLink to="/">Accueil</NavLink></li>
+                                <li onClick={toggleMenu} className="links"><NavLink to="/batiment">Bâtiment</NavLink></li>
+                                <li onClick={toggleMenu} className="links"><NavLink to="/services">Services</NavLink></li>
+                                <li onClick={toggleMenu} className="links"><NavLink to="/fabrication">Fabrication</NavLink></li>
+                                <li onClick={toggleMenu} className="links"><NavLink to="/alimentation">Alimentation</NavLink></li>
 
                             </ul>
                         </li>
@@ -103,6 +104,9 @@ export default function Header () {
                 </nav>
             </header>
             <HeaderModal showModal={toggledModal} setModalState={() => {setToggledModal(false)}} />
+            <main>
+                <Outlet/>
+            </main>
         </>
     )
 }
