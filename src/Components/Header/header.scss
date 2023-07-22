@@ -37,11 +37,11 @@ header {
 
   .deroulant_menu {
     text-align: right;
-    position: absolute;
-    top: 30px;
-    right: 0;
+    position: fixed;
+    top: 50px;
+    right: -150px;
     overflow-x: hidden;
-
+    backdrop-filter: blur(7px);
     .links {
       position: relative;
       right: -150px;

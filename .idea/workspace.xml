@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae04edda-6cc9-4f9c-a7bb-cda88b2b256f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Etape/Etape.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Etape/Etape.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Accueil.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Alimentation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Batiment.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Fabrication.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Services.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/header-modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/header-modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kevin/Desktop/trouve_ton_artisan",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,6 +81,7 @@
       <workItem from="1689924279855" duration="1132000" />
       <workItem from="1690023803446" duration="54000" />
       <workItem from="1690026968020" duration="8210000" />
+      <workItem from="1690046379826" duration="1557000" />
     </task>
     <servers />
   </component>

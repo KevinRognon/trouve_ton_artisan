@@ -17,9 +17,15 @@ export default function Header () {
         setToggledMenu(!toggledMenu);
         setToggledModal(false);
         if (!toggledMenu) {
+            gsap.to(".deroulant_menu",
+                {
+                    right: "0"
+                }
+            )
             gsap.to(".links",
                 {
                     right: 0,
+                    delay: .4,
                     stagger: 0.06
                 }
             )
@@ -41,6 +47,12 @@ export default function Header () {
             )
         }
         else {
+            gsap.to(".deroulant_menu",
+                {
+                    right: "-150px",
+                    delay: .4
+                }
+            )
             gsap.to(".links",
                 {
                     right: "-150px",
