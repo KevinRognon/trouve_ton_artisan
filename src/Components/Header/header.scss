@@ -36,16 +36,18 @@ header {
   }
 
   .deroulant_menu {
-    text-align: right;
     position: fixed;
-    top: 50px;
-    right: -150px;
+    width: 100%;
+    top: 60px;
+    right: -100%;
     overflow-x: hidden;
-    backdrop-filter: blur(7px);
+    background-color: #0074c7;
     .links {
       position: relative;
-      right: -150px;
+      right: -100%;
+      padding: 10px 0;
       font-family: "Graphik Bold";
+      color: white;
     }
   }
 }

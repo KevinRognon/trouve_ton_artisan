@@ -19,14 +19,15 @@ export default function Header () {
         if (!toggledMenu) {
             gsap.to(".deroulant_menu",
                 {
-                    right: "0"
+                    right: 0,
+                    delay: 0.1
                 }
             )
             gsap.to(".links",
                 {
                     right: 0,
-                    delay: .4,
-                    stagger: 0.06
+                    delay: .3,
+                    stagger: 0.03
                 }
             )
             gsap.to(".barre_haute",
@@ -49,14 +50,14 @@ export default function Header () {
         else {
             gsap.to(".deroulant_menu",
                 {
-                    right: "-150px",
+                    right: "-100%",
                     delay: .4
                 }
             )
             gsap.to(".links",
                 {
-                    right: "-150px",
-                    stagger: 0.06
+                    right: "-100%",
+                    stagger: 0.03
                 }
             )
             gsap.to(".barre_haute",
@@ -102,7 +103,7 @@ export default function Header () {
                                 <img className="barre_haute" src={barre_menu} alt="Barre menu hamburger"/>
                                 <img className="barre_basse" src={barre_menu} alt="Barre menu hamburger"/>
                             </div>
-                            <ul className="deroulant_menu d-flex flex-column gap-3">
+                            <ul className="deroulant_menu d-flex flex-column justify-content-center align-items-center gap-1">
                                 <li onClick={toggleMenu} className="links"><NavLink to="/">Accueil</NavLink></li>
                                 <li onClick={toggleMenu} className="links"><NavLink to="/batiment">Bâtiment</NavLink></li>
                                 <li onClick={toggleMenu} className="links"><NavLink to="/services">Services</NavLink></li>
