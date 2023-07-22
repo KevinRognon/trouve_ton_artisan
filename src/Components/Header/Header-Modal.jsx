@@ -1,5 +1,5 @@
 import './header-modal.scss';
-import {useEffect, useRef, useState} from "react";
+import {useEffect, useRef} from "react";
 import {gsap} from "gsap";
 
 export default function HeaderModal ({showModal, setModalState}) {
@@ -42,12 +42,12 @@ export default function HeaderModal ({showModal, setModalState}) {
     return (
         <div className="overflow-x-hidden">
             <div className="overlay" onClick={closeModal}>
+                <span className="bouton_fermer">x</span>
                 <div className="searchbar_modal">
                     <form onSubmit={HandleSubmit}>
                         <h1>Recherchez votre artisan</h1>
-                        <input ref={recherche} onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
+                        <input className="shadow" ref={recherche} onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
                         <button type="submit" className="btn-rechercher btn">Rechercher</button>
-                        {/*<button onClick={closeModal} className="btn-fermer btn btn-danger">Fermer</button>*/}
                     </form>
                 </div>
             </div>

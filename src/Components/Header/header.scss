@@ -37,17 +37,24 @@ header {
 
   .deroulant_menu {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 60px;
     right: -100%;
     overflow-x: hidden;
     background-color: #0074c7;
+    padding: 0;
     .links {
+      text-align: center;
       position: relative;
+      width: 100%;
       right: -100%;
       padding: 10px 0;
-      font-family: "Graphik Bold";
+      font-family: "Graphik";
       color: white;
+
+      .links:hover {
+        background-color: red;
+      }
     }
   }
 }

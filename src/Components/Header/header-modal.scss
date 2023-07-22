@@ -12,6 +12,30 @@
   display: flex;
   justify-content: center;
 
+  .bouton_fermer {
+    background-color: #ad1a1a;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border: none;
+    padding: 10px;
+    line-height: 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
 
 
   .searchbar_modal {
