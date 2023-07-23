@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_07_2023_16_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_07_2023_16_14__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/Data/datas.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Data/datas.json" afterDir="false" />
     </list>
@@ -30,16 +33,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />

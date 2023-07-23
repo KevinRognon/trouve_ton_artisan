@@ -9,7 +9,7 @@ import './EntrepriseCard.scss';
 export default function EntrepriseCard (props) {
 
     return (
-        <div className="d-flex flex-column justify-content-center align-items-center gap-4 card p-3 shadow col-11">
+        <div className="entreprise-card d-flex flex-column justify-content-center align-items-center gap-1 card p-3 shadow col-11">
             <img src={props.icone_specialite} alt="icône de specialité"/>
             <h2>{props.entreprise_nom}</h2>
             <p>{props.specialite}</p>
