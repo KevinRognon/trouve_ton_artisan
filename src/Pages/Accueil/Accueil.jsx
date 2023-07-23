@@ -55,8 +55,8 @@ export default function () {
 
     return (
         <>
-            <section className="d-flex flex-column justify-content-center text-center mt-4">
-                <h1 className="mb-5 col-12 p-4">Comment trouver mon artisan ?</h1>
+            <section className="d-flex flex-column justify-content-center text-center mt-4 pb-5">
+                <h1 className="mb-5 col-12 p-2">Comment trouver mon artisan ?</h1>
                 <div className="d-flex justify-content-center">
                     <Etape number="1" indication="Choisir une catégorie d'artisanat dans le menu."/>
                 </div>
@@ -74,7 +74,7 @@ export default function () {
                 </div>
             </section>
             <section className="section-entreprises pt-4 pb-4">
-                <h1 className="text-light text-center">Entreprises du mois</h1>
+                <h1 className="text-light text-center p-3">Entreprises du mois</h1>
                 <article className="d-flex flex-column justify-content-center align-items-center gap-2">
                     {
                         troisEntreprises.map((item, key) => {

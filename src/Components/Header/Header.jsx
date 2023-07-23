@@ -5,6 +5,7 @@ import {useState} from "react";
 import {gsap} from "gsap";
 import HeaderModal from "./Header-Modal";
 import {Link, NavLink, Outlet} from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 
 export default function Header () {
@@ -122,6 +123,9 @@ export default function Header () {
             <main>
                 <Outlet/>
             </main>
+            <footer>
+                <Footer />
+            </footer>
         </>
     )
 }
