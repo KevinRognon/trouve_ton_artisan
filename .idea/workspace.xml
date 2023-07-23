@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/aiguille.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/bijou.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/coiffure.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/map-position.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/marteau.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/note.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/plombier.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/point.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/scie.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icones/tri-des-barres.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Data/datas.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Data/datas.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +34,21 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "list.type.of.created.stylesheet": "SCSS",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TaskManager">
     <servers />
   </component>
@@ -60,5 +62,9 @@
         <option value="Space.CommitStatus" />
       </list>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -7,32 +7,34 @@ import plombier from "./assets/plombier.png";
 import couture from "./assets/couture.png";
 import coiffure from "./assets/coiffure.png";
 import bijoutier from "./assets/bijou.png";
-import charpentier from "./assets/marteau.png";
+import menuisier from "./assets/marteau.png";
 import macon from "./assets/marteau.png";
 
 import './Accueil.scss';
+import {logDOM} from "@testing-library/react";
 
 export default function () {
 
 
 
-    let tableauEntreprises = useState([]);
-    let [troisEntreprises, setEntreprise]   = useState([]);
+    let [tableauEntreprises, setTableauEntreprises] = useState([]);
+    let [troisEntreprises, setEntreprises]   = useState([]);
 
     useEffect(() => {
-        tableauEntreprises = [];
-        const troisEntreprisesTemp   = [];
+
 
         data.map((item) => {
             tableauEntreprises.push(item);
         })
-        tableauEntreprises.sort((a, b) => b.note - a.note);
-        for (let i = 0; i <= 2; i++) {
-            troisEntreprisesTemp.push(tableauEntreprises[i]);
-        }
 
-        setEntreprise(troisEntreprisesTemp);
-    }, [])
+        const troisEntreprisesTemp = [...tableauEntreprises];
+
+        troisEntreprisesTemp.sort((a, b) => b.note - a.note);
+        const topTroisEntreprises = troisEntreprisesTemp.slice(0, 3);
+
+
+        setEntreprises(topTroisEntreprises);
+    }, [tableauEntreprises])
 
 
     return (
@@ -60,13 +62,21 @@ export default function () {
                 <article className="d-flex flex-column justify-content-center align-items-center gap-2">
                     {
                         troisEntreprises.map((item, key) => {
-                            switch (item.specialty) {
-                                case "Plombier":
-                                    return <EntrepriseCard key={item.id} icone_specialite={plombier} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
-                                case "Coiffeur":
-                                    return <EntrepriseCard key={item.id} icone_specialite={coiffure} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
+                                switch (item.specialty) {
+                                    case "Plombier":
+                                        return <EntrepriseCard key={item.id} icone_specialite={plombier} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
+                                    case "Coiffeur":
+                                        return <EntrepriseCard key={item.id} icone_specialite={coiffure} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
+                                    case "Couturier":
+                                        return <EntrepriseCard key={item.id} icone_specialite={couture} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
+                                    case "Bijoutier":
+                                        return <EntrepriseCard key={item.id} icone_specialite={bijoutier} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
+                                    case "Menuisier":
+                                        return <EntrepriseCard key={item.id} icone_specialite={menuisier} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
 
-                            }
+                                    default:
+                                        return null
+                                }
                              })
 
                     }
