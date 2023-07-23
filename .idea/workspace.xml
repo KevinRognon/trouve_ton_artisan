@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae04edda-6cc9-4f9c-a7bb-cda88b2b256f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/assets/map-position.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/assets/note.svg" afterDir="false" />
+    <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/aiguille.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/bijou.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/coiffure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/map-position.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/marteau.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/plombier.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/point.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/scie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icones/tri-des-barres.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,71 +37,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Program Files\php-8.2.7\php.exe" />
-  <component name="ProjectId" id="2Ss98bDJ3SfRKEFoFu57i0gI3gi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/Trouve_ton_artisan/trouve_ton_artisan/src/Components/EntrepriseCard/assets",
     "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Components\EntrepriseCard\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Accueil" />
-      <recent name="C:\Users\krognon\Desktop\Perso\trouve_ton_artisan\src\Components\Header" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="start" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ae04edda-6cc9-4f9c-a7bb-cda88b2b256f" name="Changes" comment="" />
-      <created>1689924274854</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1689924274854</updated>
-      <workItem from="1689924279855" duration="1132000" />
-      <workItem from="1690023803446" duration="54000" />
-      <workItem from="1690026968020" duration="8210000" />
-      <workItem from="1690046379826" duration="2694000" />
-      <workItem from="1690055686964" duration="2726000" />
-      <workItem from="1690100495618" duration="1246000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
 </project>
