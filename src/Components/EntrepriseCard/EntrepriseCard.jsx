@@ -1,11 +1,26 @@
+import map_position from './assets/map-position.svg';
+import note from './assets/note.svg';
 
+import { ReactComponent as IconePosition} from "./assets/map-position.svg";
+import { ReactComponent as IconeNote} from "./assets/note.svg";
 
-export default function EntrepriseCard ({props}) {
+import './EntrepriseCard.scss';
+
+export default function EntrepriseCard (props) {
 
     return (
-        <div>
-            <img src="" alt="icône de specialité"/>
-
+        <div className="d-flex flex-column justify-content-center align-items-center gap-4 card p-3 shadow col-11">
+            <img src={props.icone_specialite} alt="icône de specialité"/>
+            <h2>{props.entreprise_nom}</h2>
+            <p>{props.specialite}</p>
+            <div className="d-flex">
+                <IconePosition fill="#cd2c2e" />
+                <p>{props.localisation}</p>
+            </div>
+            <p className="d-flex align-items-center">
+                {props.note}
+                <IconeNote fill="#ffd401" />
+            </p>
         </div>
     )
 }

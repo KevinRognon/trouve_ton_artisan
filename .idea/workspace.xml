@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae04edda-6cc9-4f9c-a7bb-cda88b2b256f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/assets/map-position.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/assets/note.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kevin/Desktop/trouve_ton_artisan",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/Trouve_ton_artisan/trouve_ton_artisan/src/Components/EntrepriseCard/assets",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,7 +61,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Components\EntrepriseCard\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Accueil" />
       <recent name="C:\Users\krognon\Desktop\Perso\trouve_ton_artisan\src\Components\Header" />
     </key>
   </component>

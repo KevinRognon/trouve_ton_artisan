@@ -1,8 +1,25 @@
-import Etape from "../Components/Etape/Etape";
-import data from '../assets/Data/datas.json';
-import EntrepriseCard from "../Components/EntrepriseCard/EntrepriseCard";
+import Etape from "../../Components/Etape/Etape";
+import data from '../../assets/Data/datas.json';
+import EntrepriseCard from "../../Components/EntrepriseCard/EntrepriseCard";
+import {useEffect, useState} from "react";
 
 export default function () {
+
+
+    let tableauEntreprises = useState([]);
+    let troisEntreprises   = [];
+
+    useEffect(() => {
+        tableauEntreprises = [];
+        troisEntreprises   = [];
+
+        data.map((item) => {
+            tableauEntreprises.push(item);
+        })
+        for (let i = 0; i <= 2; i++) {
+            troisEntreprises.push(tableauEntreprises[i]);
+        }
+    })
 
 
     return (
@@ -27,11 +44,10 @@ export default function () {
             </section>
             <section>
                 <h1>Entreprises du mois</h1>
-                <article>
-                    {data.map((item) =>
-                        <EntrepriseCard />
-                    )}
-
+                <article className="d-flex flex-column justify-content-center align-items-center gap-2">
+                    {troisEntreprises.map((item) => {
+                        return <EntrepriseCard entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note}/>
+                    })}
                 </article>
             </section>
         </>

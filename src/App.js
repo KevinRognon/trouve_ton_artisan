@@ -5,7 +5,7 @@ import Batiment from "./Pages/Batiment";
 import Services from "./Pages/Services";
 import Fabrication from "./Pages/Fabrication";
 import Alimentation from "./Pages/Alimentation";
-import Accueil from "./Pages/Accueil";
+import Accueil from "./Pages/Accueil/Accueil";
 
 
 function App() {
