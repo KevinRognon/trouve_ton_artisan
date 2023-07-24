@@ -10,7 +10,6 @@ import couture from "./assets/couture.png";
 import coiffure from "./assets/coiffure.png";
 import bijoutier from "./assets/bijou.png";
 import menuisier from "./assets/marteau.png";
-import macon from "./assets/marteau.png";
 import chocolatier from './assets/chocolatier.png';
 import toiletteur from './assets/toiletteur.png';
 import webdesigner from './assets/webdesigner.png';
