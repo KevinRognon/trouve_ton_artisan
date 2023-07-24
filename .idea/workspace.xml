@@ -6,9 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/bijou.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bijou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/boucher.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/boucher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/boulanger.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/boulanger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/carrossier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carrossier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/chauffagiste.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/chauffagiste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/chocolatier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/chocolatier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/coiffure.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/coiffure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/couture.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/couture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/electricien.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/electricien.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/ferronier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/ferronier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/fleuriste.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/fleuriste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/marteau.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/marteau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/plombier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/plombier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/scie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/scie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/toiletteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/toiletteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/traiteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/traiteur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/assets/webdesigner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/webdesigner.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Data/datas.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Data/datas.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,30 +58,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kevin/Desktop/trouve_ton_artisan/src/Pages/Batiment/assets&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kevin/Desktop/trouve_ton_artisan/src/assets/Data",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/Data" />
       <recent name="$PROJECT_DIR$/src/Pages/Batiment/assets" />
       <recent name="$PROJECT_DIR$/src/Components/Footer/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/assets/Data" />
       <recent name="$PROJECT_DIR$/src/Pages/Batiment" />
+      <recent name="$PROJECT_DIR$/src/Pages/assets" />
       <recent name="$PROJECT_DIR$/src/Components/Footer" />
     </key>
   </component>

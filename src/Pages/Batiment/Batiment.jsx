@@ -17,8 +17,8 @@ export default function Batiment () {
             <article className="article-batiment w-100 d-flex flex-column justify-content-center align-items-center">
                 <div className="d-flex flex-column justify-content-center align-items-center col-12 gap-2 p-2 mt-2 mb-2">
                     {
-                        data.map((item) =>
-                            <EntrepriseCard entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
+                        data.map((item, key) =>
+                            <EntrepriseCard key={item.id} icone_specialite={item.icone} entreprise_nom={item.name} specialite={item.specialty} localisation={item.location} note={item.note} />
                         )
                     }
                 </div>
