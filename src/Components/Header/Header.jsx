@@ -20,14 +20,14 @@ export default function Header () {
         if (!toggledMenu) {
             gsap.to(".deroulant_menu",
                 {
-                    x: "-100%",
+                    right: "0",
                     duration: .4,
                     delay: 0.1
                 }
             )
             gsap.to(".links",
                 {
-                    x: "-100%",
+                    right: "0",
                     duration: .4,
                     delay: .3,
                     stagger: 0.03
@@ -53,14 +53,14 @@ export default function Header () {
         else {
             gsap.to(".deroulant_menu",
                 {
-                    x: "+100%",
+                    right: "-110%",
                     delay: .4
                 }
             )
             gsap.to(".links",
                 {
-                    x: "+100%",
-                    stagger: 0.03
+                    right: "-110%",
+                    stagger: 0.06
                 }
             )
             gsap.to(".barre_haute",
