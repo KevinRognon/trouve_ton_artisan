@@ -28,7 +28,7 @@ export default function Batiment () {
                     <h1 className="text-light">Entreprises du bâtiment</h1>
                     {
                         data.filter((val) => {
-                            return val.specialty.toLowerCase().includes(inputResearch.toLowerCase());
+                            return val.specialty.toLowerCase().includes(inputResearch.toLowerCase()) || val.location.toLowerCase().includes(inputResearch.toLowerCase()) || val.name.toLowerCase().includes(inputResearch.toLowerCase());
                         }).map((val, key) => {
                                 if (val.category === "Bâtiment") {
                                     return <EntrepriseCard key={val.id} icone_specialite={val.icone} entreprise_nom={val.name} specialite={val.specialty} localisation={val.location} note={val.note} />

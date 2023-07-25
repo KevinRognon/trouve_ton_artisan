@@ -56,9 +56,9 @@ export default function () {
                     <Etape number="4" indication="Une réponse sera apportée sous 48h."/>
                 </div>
             </section>
-            <section className="section-entreprises pt-4 pb-4">
+            <section className="section-entreprises pt-4 pb-4 d-flex flex-column align-items-center">
                 <h1 className="text-light text-center p-3">Entreprises du mois</h1>
-                <article className="d-flex flex-column justify-content-center align-items-center gap-2">
+                <article className="d-flex flex-column justify-content-center align-items-center gap-2 col-11">
                     {
                         troisEntreprises.map((item, key) =>
                             <EntrepriseCard

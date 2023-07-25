@@ -1,10 +1,13 @@
 import './header-modal.scss';
-import {useEffect, useRef} from "react";
+import {useEffect, useRef, useState} from "react";
 import {gsap} from "gsap";
+import data from '../../assets/Data/datas.json';
+import EntrepriseCard from "../EntrepriseCard/EntrepriseCard";
 
 export default function HeaderModal ({showModal, setModalState}) {
 
     const recherche = useRef(null);
+    const [inputResearch, setInputResearch] = useState("");
 
 
     useEffect(() => {
@@ -19,6 +22,7 @@ export default function HeaderModal ({showModal, setModalState}) {
         gsap.to(".overlay",
             {left: "+100%", ease: "power4", duration: 0.5}
         )
+        setInputResearch("");
         setModalState();
     }
 
@@ -38,17 +42,32 @@ export default function HeaderModal ({showModal, setModalState}) {
         closeModal();
     }
 
+    function HandleChange(e) {
+        let valeur = e.target.value;
+        valeur.length > 2 && setInputResearch(valeur);
+        valeur.length < 2 && setInputResearch("");
+    }
+
 
     return (
         <div className="overflow-x-hidden">
-            <div className="overlay" onClick={closeModal}>
+            <div className="overlay d-flex flex-column align-items-center justify-content-start gap-4" onClick={closeModal}>
                 <span className="bouton_fermer">x</span>
                 <div className="searchbar_modal">
                     <form onSubmit={HandleSubmit}>
                         <h1>Recherchez votre artisan</h1>
-                        <input className="shadow" ref={recherche} onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
-                        <button type="submit" className="btn-rechercher btn">Rechercher</button>
+                        <input className="shadow" ref={recherche} onChange={HandleChange} onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
                     </form>
+                </div>
+                <div className=" overflow-scroll h-75 col-11 d-flex flex-column align-items-center gap-2">
+                    {
+                        data.filter((val) => {
+                            return val.specialty.toLowerCase().includes(inputResearch.toLowerCase()) || val.location.toLowerCase().includes(inputResearch.toLowerCase()) || val.name.toLowerCase().includes(inputResearch.toLowerCase());
+                        }).map((val, key) => {
+                                return <EntrepriseCard key={val.id} icone_specialite={val.icone} entreprise_nom={val.name} specialite={val.specialty} localisation={val.location} note={val.note} />
+                            }
+                        )
+                    }
                 </div>
             </div>
         </div>
