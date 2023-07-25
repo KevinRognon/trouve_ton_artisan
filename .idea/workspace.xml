@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/Alimentation/Alimentation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Alimentation/assets/loupe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Fabrication/Fabrication.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Fabrication/assets/loupe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Services/Services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Services/assets/loupe.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header-Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header-Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Alimentation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Alimentation/Alimentation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Fabrication.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Fabrication/Fabrication.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Services/Services.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +47,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kevin/Desktop/trouve_ton_artisan/src/assets/Data&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/Trouve_ton_artisan/trouve_ton_artisan/src/Pages/Fabrication",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Fabrication" />
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Alimentation" />
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Services" />
       <recent name="$PROJECT_DIR$/src/assets/Data" />
       <recent name="$PROJECT_DIR$/src/Pages/Batiment/assets" />
-      <recent name="$PROJECT_DIR$/src/Components/Footer/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Fabrication" />
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Alimentation" />
+      <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Services" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/src/assets/Data" />
-      <recent name="$PROJECT_DIR$/src/Pages/Batiment" />
-      <recent name="$PROJECT_DIR$/src/Pages/assets" />
-      <recent name="$PROJECT_DIR$/src/Components/Footer" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
