@@ -63,6 +63,7 @@ export default function () {
                         troisEntreprises.map((item, key) =>
                             <EntrepriseCard
                                         key={item.id}
+                                        id={item.id}
                                         icone_specialite={item.icone}
                                         entreprise_nom={item.name}
                                         specialite={item.specialty}

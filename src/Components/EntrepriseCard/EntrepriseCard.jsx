@@ -3,11 +3,12 @@ import { ReactComponent as IconePosition} from "./assets/map-position.svg";
 import { ReactComponent as IconeNote} from "./assets/note.svg";
 
 import './EntrepriseCard.scss';
+import {NavLink} from "react-router-dom";
 
 export default function EntrepriseCard (props) {
 
     return (
-        <div className="entreprise-card d-flex flex-column justify-content-center align-items-center gap-1 card p-3 shadow col-12 text-center">
+        <NavLink to={`/entreprise/${props.entreprise_nom}`} className="entreprise-card d-flex flex-column justify-content-center align-items-center gap-1 card p-3 shadow col-12 text-center">
             <img src={props.icone_specialite} alt="icône de specialité"/>
             <h2>{props.entreprise_nom}</h2>
             <p>{props.specialite}</p>
@@ -19,6 +20,6 @@ export default function EntrepriseCard (props) {
                 {props.note}
                 <IconeNote fill="#ffd401" />
             </p>
-        </div>
+        </NavLink>
     )
 }

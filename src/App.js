@@ -6,6 +6,8 @@ import Services from "./Pages/Services/Services";
 import Fabrication from "./Pages/Fabrication/Fabrication";
 import Alimentation from "./Pages/Alimentation/Alimentation";
 import Accueil from "./Pages/Accueil/Accueil";
+import Error404 from "./Pages/404/Error404";
+import EntrepriseDetailPage from "./Pages/EntrepriseDetailPage/EntrepriseDetailPage";
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
                     <Route path="/services" element={<Services />} />
                     <Route path="/fabrication" element={<Fabrication />} />
                     <Route path="/alimentation" element={<Alimentation />} />
+                    <Route path="/entreprise/:name" element={<EntrepriseDetailPage />} />
+                    <Route path="/*" element={<Error404 />} />
                 </Route>
             </Routes>
         </BrowserRouter>
