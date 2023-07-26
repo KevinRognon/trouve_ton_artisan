@@ -8,7 +8,7 @@ import {useEffect, useState} from "react";
 
 import './Accueil.scss';
 
-export default function () {
+export default function Accueil () {
 
 
 

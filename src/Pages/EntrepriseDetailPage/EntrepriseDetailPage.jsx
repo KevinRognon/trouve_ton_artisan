@@ -8,21 +8,15 @@ export default function EntrepriseDetailPage () {
 
     const params = useParams();
 
-    console.log(params);
 
-    // <EntrepriseCard
-    //     id={entreprise.id}
-    //     key={entreprise.id}
-    //     icone_specialite={entreprise.icone}
-    //     entreprise_nom={entreprise.name}
-    //     specialite={entreprise.specialty}
-    //     localisation={entreprise.location}
-    //     note={entreprise.note}
-    // />
+
 
     return (
-        <section>
-            <article>
+        <section className="section-information d-flex flex-column justify-content-start align-items-center gap-2">
+            <article className="article-titre w-100 text-center mb-1">
+                <h1>Informations</h1>
+            </article>
+            <article className="article-information col-11">
                 {
                     data.map((entreprise, key) => {
                         if(params.name === entreprise.name) {
@@ -32,10 +26,17 @@ export default function EntrepriseDetailPage () {
                                 specialite={entreprise.specialty}
                                 localisation={entreprise.location}
                                 note={entreprise.note}
+                                icone={entreprise.icone}
                             />
                         }
                     })
                 }
+            </article>
+
+            <article className="article-form">
+                <form>
+                    <h1>Formulaire de contact</h1>
+                </form>
             </article>
         </section>
     )
