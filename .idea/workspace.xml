@@ -7,9 +7,7 @@
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Alimentation/Alimentation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Alimentation/Alimentation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Batiment/Batiment.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Fabrication/Fabrication.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Fabrication/Fabrication.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Services/Services.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
       <workItem from="1690126540394" duration="654000" />
       <workItem from="1690182318183" duration="3311000" />
       <workItem from="1690201307245" duration="2229000" />
-      <workItem from="1690355527174" duration="4497000" />
+      <workItem from="1690355527174" duration="4597000" />
     </task>
     <servers />
   </component>

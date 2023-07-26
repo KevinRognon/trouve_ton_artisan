@@ -19,7 +19,7 @@ export default function Fabrication () {
     return (
         <section className="d-flex flex-column align-items-center">
             <article className="d-flex flex-column justify-content-center align-items-center" >
-                <h1 className="text-dark">Entreprises de Fabrication</h1>
+                <h1 className="text-dark text-center">Entreprises de Fabrication</h1>
                 <div className="champ_recherche d-flex flex-row justify-content-center align-items-center card col-8 rounded-4 p-1 gap-1 mb-4 mt-3">
                     <Loupe />
                     <input onChange={handleInputChange} type="text" placeholder="Recherchez un artisan"/>
