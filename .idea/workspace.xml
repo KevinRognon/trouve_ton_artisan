@@ -5,30 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseDetail/EntrepriseDetail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseDetail/assets/map-position.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/EntrepriseDetail/assets/note.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/bijou.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bijou.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/boucher.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/boucher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/boulanger.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/boulanger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carrossier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carrossier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/chauffagiste.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/chauffagiste.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/chocolatier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/chocolatier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/coiffure.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/coiffure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/couture.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/couture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/electricien.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/electricien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ferronier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/ferronier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fleuriste.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/fleuriste.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/marteau.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/marteau.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/plombier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/plombier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/scie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/scie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/toiletteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/toiletteur.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/traiteur.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/traiteur.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/webdesigner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/webdesigner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseDetail/EntrepriseDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseDetail/EntrepriseDetail.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Accueil/Accueil.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bijou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/boucher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/boulanger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/carrossier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/chauffagiste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/chocolatier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coiffure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/couture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/electricien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ferronier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/fleuriste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/marteau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/plombier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/scie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/toiletteur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/traiteur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/webdesigner.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +120,7 @@
       <workItem from="1690182318183" duration="3311000" />
       <workItem from="1690201307245" duration="2229000" />
       <workItem from="1690355527174" duration="4597000" />
-      <workItem from="1690390414486" duration="5809000" />
+      <workItem from="1690390414486" duration="6141000" />
     </task>
     <servers />
   </component>
