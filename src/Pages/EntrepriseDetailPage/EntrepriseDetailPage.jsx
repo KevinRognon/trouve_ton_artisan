@@ -22,11 +22,11 @@ export default function EntrepriseDetailPage () {
                         if(params.name === entreprise.name) {
                             return <EntrepriseDetail
                                 key={entreprise.id}
+                                icone={entreprise.icone}
                                 entreprise_nom={entreprise.name}
                                 specialite={entreprise.specialty}
                                 localisation={entreprise.location}
                                 note={entreprise.note}
-                                icone={entreprise.icone}
                             />
                         }
                     })
