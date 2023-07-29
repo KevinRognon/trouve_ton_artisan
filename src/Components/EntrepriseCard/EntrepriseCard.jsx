@@ -9,7 +9,6 @@ export default function EntrepriseCard (props) {
 
     return (
         <NavLink to={`/entreprise/${props.entreprise_nom}`} className="entreprise-card d-flex flex-column justify-content-center align-items-center gap-1 card p-3 shadow col-12 text-center">
-            <img src={props.icone_specialite} alt="icône de specialité"/>
             <h2>{props.entreprise_nom}</h2>
             <p>{props.specialite}</p>
             <div className="d-flex">

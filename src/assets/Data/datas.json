@@ -9,8 +9,7 @@
 		"email":"v.bellemare@gmail.com",
 		"website":"https://plomberie-bellemare.com",
 		"category":"Bâtiment",
-		"top": false,
-		"icone": "./images/plombier.png"
+		"top": false
 	},
 	{
 		"id": "2",
@@ -22,8 +21,7 @@
 		"email":"a.amitee@hotmail.com",
 		"website":"https://lecuyer-couture.com",
 		"category":"Fabrication",
-		"top": false,
-		"icone": "./images/couture.png"
+		"top": false
 	},
 	{
 		"id": "3",
@@ -35,8 +33,7 @@
 		"email":"l.dennos@hotmail.fr",
 		"website":"https://coiffure-leala-chambery.fr",
 		"category":"Services",
-		"top": false,
-		"icone": "./images/coiffure.png"
+		"top": false
 	},
 	{
 		"id": "4",
@@ -48,8 +45,7 @@
 		"email":"chocolaterie-labbe@gmail.com",
 		"website":"https://chocolaterie-labbe.fr",
 		"category":"Alimentation",
-		"top": true,
-		"icone": "./images/chocolatier.png"
+		"top": true
 	},
 	{
 		"id": "5",
@@ -61,8 +57,7 @@
 		"email":"claude.quinn@gmail.com",
 		"website":"",
 		"category":"Fabrication",
-		"top": false,
-		"icone": "./images/bijou.png"
+		"top": false
 	},
 	{
 		"id": "6",
@@ -74,8 +69,7 @@
 		"email":"v-laredoute@gmail.com",
 		"website":"",
 		"category":"Services",
-		"top": false,
-		"icone": "./images/toiletteur.png"
+		"top": false
 	},
 	{
 		"id": "7",
@@ -87,8 +81,7 @@
 		"email":"boutot-menuiserie@gmail.com",
 		"website":"https://boutot-menuiserie.com",
 		"category":"Bâtiment",
-		"top": false,
-		"icone": "./images/scie.png"
+		"top": false
 	},
 	{
 		"id": "8",
@@ -100,8 +93,7 @@
 		"email":"contact@cm-graphisme.com",
 		"website":"https://cm-graphisme.com",
 		"category":"Services",
-		"top": false,
-		"icone": "./images/webdesigner.png"
+		"top": false
 	},
 	{
 		"id": "9",
@@ -113,8 +105,7 @@
 		"email":"o-salmons@live.com",
 		"website":"",
 		"category":"Bâtiment",
-		"top": true,
-		"icone": "./images/chauffagiste.png"
+		"top": true
 	},
 	{
 		"id": "10",
@@ -126,8 +117,7 @@
 		"email":"aupainchaud@hotmail.com",
 		"website":"",
 		"category":"Alimentation",
-		"top": true,
-		"icone": "./images/boulanger.png"
+		"top": true
 	},
 	{
 		"id": "11",
@@ -139,8 +129,7 @@
 		"email":"boucherie.dumond@gmail.com",
 		"website":"",
 		"category":"Alimentation",
-		"top": false,
-		"icone": "./images/boucher.png"
+		"top": false
 	},
 	{
 		"id": "12",
@@ -152,8 +141,7 @@
 		"email":"contact@mont-blanc-electricite.com",
 		"website":"https://mont-blanc-electricite.com",
 		"category":"Bâtiment",
-		"top": false,
-		"icone": "./images/electricien.png"
+		"top": false
 	},
 	{
 		"id": "13",
@@ -165,8 +153,7 @@
 		"email":"contact@truchon-traiteur.fr",
 		"website":"https://truchon-traiteur.fr",
 		"category":"Bâtiment",
-		"top": false,
-		"icone": "./images/traiteur.png"
+		"top": false
 	},
 	{
 		"id": "14",
@@ -178,8 +165,7 @@
 		"email":"contact@le-monde-des-fleurs-annonay.fr",
 		"website":"https://le-monde-des-fleurs-annonay.fr",
 		"category":"Services",
-		"top": false,
-		"icone": "./images/fleuriste.png"
+		"top": false
 	},
 	{
 		"id": "15",
@@ -191,8 +177,7 @@
 		"email":"r.charbonneau@gmail.com",
 		"website":"",
 		"category":"Services",
-		"top": false,
-		"icone": "./images/carrossier.png"
+		"top": false
 	},
 	{
 		"id": "16",
@@ -204,8 +189,7 @@
 		"email":"e-carigan@hotmail.com",
 		"website":"",
 		"category":"Fabrication",
-		"top": false,
-		"icone": "./images/ferronier.png"
+		"top": false
 	},
 	{
 		"id": "17",
@@ -217,7 +201,6 @@
 		"email":"sup-hair@gmail.com",
 		"website":"https://sup-hair.fr",
 		"category":"Services",
-		"top": false,
-		"icone": "./images/coiffure.png"
+		"top": false
 	}
 ]
