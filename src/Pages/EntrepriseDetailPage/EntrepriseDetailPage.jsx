@@ -1,4 +1,4 @@
-import {Navigate, useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import data from '../../assets/Data/datas.json';
 import EntrepriseDetail from "../../Components/EntrepriseDetail/EntrepriseDetail";
 import React from "react";
@@ -14,6 +14,32 @@ export default function EntrepriseDetailPage () {
 
     if (!entreprise) {
         return <Error404 />
+    }
+
+    function Form() {
+        return (
+            <div className="d-flex flex-column justify-content-center align-content-center col-12">
+                <h1 className="fs-3 text-center">Formulaire de contact</h1>
+                <form className="d-flex flex-column justify-content-center align-items-center gap-2">
+                    <input className="col-10 p-3 rounded-1" type="text" placeholder="Nom"/>
+                    <input className="col-10 p-3 rounded-1" type="text" placeholder="Objet"/>
+                    <textarea className="col-10 p-3 rounded-1" placeholder="Message" cols="10"/>
+
+                    <button type="button" className="btn btn-success">Envoyer</button>
+                </form>
+            </div>
+        )
+    }
+
+    function ShowWebsite (props) {
+        return (
+            <div>
+                <h2 className="fs-5 text-center">
+                    Site web de l'entreprise
+                </h2>
+                <a className="text-primary text-center" href={props.website}>{props.website}</a>
+            </div>
+        )
     }
 
 
@@ -36,17 +62,10 @@ export default function EntrepriseDetailPage () {
                 }
             </article>
 
-            <article className="article-form col-11 p-3 mb-3">
-                <div className="d-flex flex-column justify-content-center align-content-center col-12">
-                    <h1 className="fs-3 text-center">Formulaire de contact</h1>
-                    <form className="d-flex flex-column justify-content-center align-items-center gap-2">
-                        <input className="col-10 p-3 rounded-1" type="text" placeholder="Nom"/>
-                        <input className="col-10 p-3 rounded-1" type="text" placeholder="Objet"/>
-                        <textarea className="col-10 p-3 rounded-1" placeholder="Message" cols="10"/>
 
-                        <button type="button" className="btn btn-success">Envoyer</button>
-                    </form>
-                </div>
+            <article className="article-form col-11 p-3 mb-3">
+                {entreprise.website === "" && <Form />}
+                {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
             </article>
         </section>
     )
