@@ -33,7 +33,7 @@ export default function EntrepriseDetailPage () {
 
     function ShowWebsite (props) {
         return (
-            <div>
+            <div className="d-flex flex-column align-items-center">
                 <h2 className="fs-5 text-center">
                     Site web de l'entreprise
                 </h2>
@@ -63,7 +63,7 @@ export default function EntrepriseDetailPage () {
             </article>
 
 
-            <article className="article-form col-11 p-3 mb-3">
+            <article className="article-form col-11 p-3 mb-3 d-flex flex-column align-items-center">
                 {entreprise.website === "" && <Form />}
                 {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
             </article>
