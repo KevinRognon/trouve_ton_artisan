@@ -65,13 +65,13 @@ export default function Accueil () {
                     {
                         troisEntreprises.map((item, key) =>
                             <EntrepriseCard
-                                        key={item.id}
-                                        id={item.id}
-                                        entreprise_nom={item.name}
-                                        specialite={item.specialty}
-                                        localisation={item.location}
-                                        note={item.note}
-                                    />
+                                key={item.id}
+                                id={item.id}
+                                entreprise_nom={item.name}
+                                specialite={item.specialty}
+                                localisation={item.location}
+                                note={item.note}
+                            />
                         )
 
                     }

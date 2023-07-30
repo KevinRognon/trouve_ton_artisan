@@ -9,9 +9,9 @@ export default function Footer () {
 
     return (
         <>
-            <div className="p-3">
+            <div className="p-3 d-flex flex-column flex-md-row mt-md-5">
                 <div className="logo_site"></div>
-                <div>
+                <div className="d-flex flex-column flex-md-row justify-content-md-center">
                     <div className="d-flex flex-column justify-content-start align-items-start gap-2 mx-4">
                         <div className="d-flex justify-content-center align-items-center gap-2">
                             <Liens />
