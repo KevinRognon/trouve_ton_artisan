@@ -1,6 +1,8 @@
-import {useParams} from "react-router-dom";
+import {Navigate, useParams} from "react-router-dom";
 import data from '../../assets/Data/datas.json';
 import EntrepriseDetail from "../../Components/EntrepriseDetail/EntrepriseDetail";
+import React from "react";
+import Error404 from "../404/Error404";
 
 
 export default function EntrepriseDetailPage () {
@@ -8,7 +10,11 @@ export default function EntrepriseDetailPage () {
 
     const params = useParams();
 
+    const entreprise = data.find((entreprise) => entreprise.name === params.name);
 
+    if (!entreprise) {
+        return <Error404 />
+    }
 
 
     return (
@@ -18,19 +24,15 @@ export default function EntrepriseDetailPage () {
             </article>
             <article className="article-information col-11 mt-3">
                 {
-                    data.map((entreprise, key) => {
-                        if(params.name === entreprise.name) {
-                            return <EntrepriseDetail
-                                key={entreprise.id}
-                                icone={entreprise.icone}
-                                entreprise_nom={entreprise.name}
-                                specialite={entreprise.specialty}
-                                localisation={entreprise.location}
-                                note={entreprise.note}
-                                apropos={entreprise.about}
-                            />
-                        }
-                    })
+                    <EntrepriseDetail
+                        key={entreprise.id}
+                        icone={entreprise.icone}
+                        entreprise_nom={entreprise.name}
+                        specialite={entreprise.specialty}
+                        localisation={entreprise.location}
+                        note={entreprise.note}
+                        apropos={entreprise.about}
+                    />
                 }
             </article>
 

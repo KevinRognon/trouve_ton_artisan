@@ -13,9 +13,9 @@ export default function EntrepriseDetail ( props ) {
                 {props.localisation}
             </div>
             <div>
-                <h1 className="text-decoration-underline">{props.specialite}</h1>
+                <h1 className="text-decoration-underline">{props.entreprise_nom}</h1>
                 <div className="d-flex align-items-center gap-2">
-                    <h2 className="fs-6">{props.entreprise_nom}</h2>
+                    <h2 className="fs-6">{props.specialite}</h2>
                     <div className="d-flex">
                         <p>{props.note}</p>
                         <Note fill="#FFD600" />
