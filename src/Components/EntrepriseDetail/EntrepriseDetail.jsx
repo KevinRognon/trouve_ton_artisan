@@ -8,9 +8,9 @@ export default function EntrepriseDetail ( props ) {
 
     return (
         <div className="d-flex flex-column justify-content-center p-4 gap-3">
-            <div className="align-self-center">
+            <div className="d-flex align-self-center align-items-center">
                 <MapPosition fill="crimson" />
-                {props.localisation}
+                <h2>{props.localisation}</h2>
             </div>
             <div>
                 <h1 className="text-decoration-underline">{props.entreprise_nom}</h1>
