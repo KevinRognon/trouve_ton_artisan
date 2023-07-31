@@ -37,7 +37,7 @@ export default function EntrepriseDetailPage () {
                 <h2 className="fs-5 text-center">
                     Site web de l'entreprise
                 </h2>
-                <a className="text-primary text-center" href={props.website}>{props.website}</a>
+                <a target="_blank" className="text-primary text-center" href={props.website}>{props.website}</a>
             </div>
         )
     }
