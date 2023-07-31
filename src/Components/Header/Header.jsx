@@ -14,9 +14,12 @@ export default function Header () {
     const [toggledModal, setToggledModal] = useState(false);
 
 
+
     function toggleMenu () {
         setToggledMenu(!toggledMenu);
         setToggledModal(false);
+
+
         if (!toggledMenu) {
             gsap.to(".deroulant_menu",
                 {
@@ -106,14 +109,14 @@ export default function Header () {
                                 <img className="barre_haute" src={barre_menu} alt="Barre menu hamburger"/>
                                 <img className="barre_basse" src={barre_menu} alt="Barre menu hamburger"/>
                             </div>
-                            <ul className="deroulant_menu d-flex flex-column justify-content-center align-items-center gap-1">
-                                <li onClick={toggleMenu} className="links"><NavLink to="/">Accueil</NavLink></li>
-                                <li onClick={toggleMenu} className="links"><NavLink to="/batiment">Bâtiment</NavLink></li>
-                                <li onClick={toggleMenu} className="links"><NavLink to="/services">Services</NavLink></li>
-                                <li onClick={toggleMenu} className="links"><NavLink to="/fabrication">Fabrication</NavLink></li>
-                                <li onClick={toggleMenu} className="links"><NavLink to="/alimentation">Alimentation</NavLink></li>
-
+                            <ul className={`deroulant_menu d-flex flex-column justify-content-center align-items-center gap-0 ${toggledMenu ? "active" : ""}`}>
+                                <NavLink onClick={toggleMenu} className="links" to="/">Accueil</NavLink>
+                                <NavLink onClick={toggleMenu} className="links" to="/batiment">Bâtiment</NavLink>
+                                <NavLink onClick={toggleMenu} className="links" to="/services">Services</NavLink>
+                                <NavLink onClick={toggleMenu} className="links" to="/fabrication">Fabrication</NavLink>
+                                <NavLink onClick={toggleMenu} className="links" to="/alimentation">Alimentation</NavLink>
                             </ul>
+
                         </li>
 
                     </ul>

@@ -25,8 +25,18 @@ header {
   }
 }
 
+.container_search_bar {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .menu-hamburger {
   position: relative;
+
+  &:hover {
+    cursor: pointer;
+  }
 
   .barres_menu {
     display: flex;
@@ -44,6 +54,8 @@ header {
     background-color: #0074c7;
     padding: 0;
     z-index: 2;
+
+    border: 2px solid lightgrey;
     .links {
       text-align: center;
       position: relative;
@@ -53,9 +65,32 @@ header {
       font-family: "Graphik";
       color: white;
 
-      .links:hover {
-        background-color: red;
+      &:hover {
+        background-color: #f1f8fc;
+        color: #0074c7;
+      }
+      &.active {
+        background-color: #f1f8fc !important;
+        color: #0074c7 !important;
       }
     }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 728px) {
+  .deroulant_menu {
+    border: none !important;
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .deroulant_menu {
+    width: 20% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .deroulant_menu {
+    width: 10% !important;
   }
 }

@@ -54,12 +54,12 @@ export default function HeaderModal ({showModal, setModalState}) {
             <div className="overlay d-flex flex-column align-items-center justify-content-start gap-4" onClick={closeModal}>
                 <span className="bouton_fermer">x</span>
                 <div className="searchbar_modal">
-                    <form onSubmit={HandleSubmit}>
+                    <form onSubmit={HandleSubmit} className="d-flex flex-column">
                         <h1>Recherchez votre artisan</h1>
                         <input className="shadow" ref={recherche} onChange={HandleChange} onClick={HandleInput} placeholder="Recherchez un artisan" type="text"/>
                     </form>
                 </div>
-                <div className=" overflow-scroll h-75 col-11 d-flex flex-column align-items-center gap-2">
+                <div className="overflow-scroll h-75 col-11 d-flex flex-column flex-md-row flex-md-wrap justify-content-md-center align-items-center align-items-md-stretch gap-2">
                     {
                         data.filter((val) => {
                             return val.specialty.toLowerCase().includes(inputResearch.toLowerCase()) || val.location.toLowerCase().includes(inputResearch.toLowerCase()) || val.name.toLowerCase().includes(inputResearch.toLowerCase());

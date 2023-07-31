@@ -40,10 +40,8 @@
 
 
   .searchbar_modal {
-    margin-top: 20%;
+    margin-top: 10%;
     form {
-      display: flex;
-      flex-direction: column;
       h1 {
         color: #384050;
       }
@@ -56,18 +54,18 @@
         background-color: #f1f8fc;
 
       }
-      .btn-rechercher {
-        background-color: #82b864;
-        color: #f1f8fc;
-        margin-top: 10px;
-        width: 50%;
-        align-self: center;
-      }
-      .btn-fermer {
-        width: 50%;
-        align-self: center;
-        margin-top: 5px;
-      }
     }
+  }
+}
+@media screen and (min-width: 728px) {
+  .bouton_fermer {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 1.4em !important;
+    top: 30px !important;
+    left: 30px !important;
+  }
+  .searchbar_modal {
+    margin-top: 5% !important;
   }
 }
