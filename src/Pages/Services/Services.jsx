@@ -27,7 +27,7 @@ export default function Services () {
             </article>
 
             <article className="article-batiment w-100 d-flex flex-column justify-content-center align-items-center">
-                <div className="d-flex flex-column justify-content-center align-items-center col-12 gap-2 p-2 mt-2 mb-2">
+                <div className="d-flex flex-column flex-md-row flex-md-wrap justify-content-center align-items-center align-items-md-stretch col-12 gap-2 p-2 mt-2 mb-2">
                     {
                         data.filter((val) => {
                             return val.specialty.toLowerCase().includes(inputResearch.toLowerCase()) || val.location.toLowerCase().includes(inputResearch.toLowerCase()) || val.name.toLowerCase().includes(inputResearch.toLowerCase());
