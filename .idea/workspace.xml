@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Alimentation/Alimentation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Alimentation/Alimentation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Fabrication/Fabrication.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Fabrication/Fabrication.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Services/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +71,18 @@
       <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Services" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Footer.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" working-dir="$PROJECT_DIR$/src/Components/Footer">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
@@ -86,6 +94,7 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.Footer.jsx" />
+      <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
