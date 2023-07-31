@@ -53,7 +53,7 @@ export default function Accueil () {
             </section>
             <section className="section-entreprises pt-4 pb-4 d-flex flex-column align-items-center">
                 <h1 className="text-light text-center p-3">Entreprises du mois</h1>
-                <article className="d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start gap-2 pb-md-5">
+                <article className="d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start gap-2 pb-md-5 col-11">
                     {
                         troisEntreprises.map((item, key) =>
                             <EntrepriseCard
