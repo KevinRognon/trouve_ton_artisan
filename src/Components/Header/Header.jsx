@@ -94,7 +94,7 @@ export default function Header () {
             <header className="col-12 h-2">
                 <nav className="h-100 d-flex justify-content-between">
 
-                    <Link to="/" className="logo_site"></Link>
+                    <NavLink to="/" className="logo_site"></NavLink>
 
                     <ul className="h-100 d-flex flex-row align-items-center gap-2 me-3">
 
