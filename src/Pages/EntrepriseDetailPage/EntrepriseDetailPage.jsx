@@ -48,7 +48,7 @@ export default function EntrepriseDetailPage () {
             <article className="article-titre w-100 text-center mb-1">
                 <h1>Informations</h1>
             </article>
-            <article className="article-information col-11 mt-3">
+            <article className="article-information col-11 mt-3 rounded-top-2">
                 {
                     <EntrepriseDetail
                         key={entreprise.id}
@@ -63,7 +63,7 @@ export default function EntrepriseDetailPage () {
             </article>
 
 
-            <article className="article-form col-11 p-3 mb-3 d-flex flex-column align-items-center">
+            <article className="article-form col-11 p-3 mb-3 d-flex flex-column align-items-center rounded-bottom-2">
                 {entreprise.website === "" && <Form />}
                 {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
             </article>
