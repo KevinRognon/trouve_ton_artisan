@@ -12,8 +12,8 @@ p {
   cursor: pointer;
 }
 
-a {
+.entreprise-card {
   &:hover {
-    box-shadow: 0 0 10px #0074c7;
+    background-color: #f1f8fc;
   }
 }
