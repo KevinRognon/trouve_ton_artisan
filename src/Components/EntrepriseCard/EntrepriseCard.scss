@@ -12,3 +12,8 @@ p {
   cursor: pointer;
 }
 
+.entreprise-card {
+  &:hover {
+    background-color: #f1f8fc;
+  }
+}
