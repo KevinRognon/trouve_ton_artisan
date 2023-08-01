@@ -4,6 +4,8 @@ import EntrepriseDetail from "../../Components/EntrepriseDetail/EntrepriseDetail
 import React from "react";
 import Error404 from "../404/Error404";
 
+import './EntrepriseDetailPage.scss';
+
 
 export default function EntrepriseDetailPage () {
 
@@ -45,28 +47,30 @@ export default function EntrepriseDetailPage () {
 
     return (
         <section className="section-information d-flex flex-column justify-content-start align-items-center">
-            <article className="article-titre w-100 text-center mb-1">
+            <article className="article-titre w-100 text-center">
                 <h1>Informations</h1>
             </article>
-            <article className="article-information col-11 mt-3 rounded-top-2">
-                {
-                    <EntrepriseDetail
-                        key={entreprise.id}
-                        icone={entreprise.icone}
-                        entreprise_nom={entreprise.name}
-                        specialite={entreprise.specialty}
-                        localisation={entreprise.location}
-                        note={entreprise.note}
-                        apropos={entreprise.about}
-                    />
-                }
-            </article>
+            <div className="d-flex flex-column flex-lg-row align-items-center align-items-lg-stretch col-lg-11 pt-2 pb-2 pt-md-3 pb-md-3 pt-lg-4 pb-lg-4">
+                <article className="article-information col-11 col-lg-6 rounded-top-2">
+                    {
+                        <EntrepriseDetail
+                            key={entreprise.id}
+                            icone={entreprise.icone}
+                            entreprise_nom={entreprise.name}
+                            specialite={entreprise.specialty}
+                            localisation={entreprise.location}
+                            note={entreprise.note}
+                            apropos={entreprise.about}
+                        />
+                    }
+                </article>
 
 
-            <article className="article-form col-11 p-3 mb-3 d-flex flex-column align-items-center rounded-bottom-2">
-                {entreprise.website === "" && <Form />}
-                {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
-            </article>
+                <article className="article-form col-11 col-lg-6 p-3 d-flex flex-column align-items-center rounded-bottom-2">
+                    {entreprise.website === "" && <Form />}
+                    {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
+                </article>
+            </div>
         </section>
     )
 }

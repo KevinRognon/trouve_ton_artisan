@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EntrepriseCard/EntrepriseCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +95,8 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.Footer.jsx" />
-      <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
