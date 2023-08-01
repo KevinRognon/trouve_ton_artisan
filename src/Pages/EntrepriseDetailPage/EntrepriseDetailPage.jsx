@@ -16,16 +16,16 @@ export default function EntrepriseDetailPage () {
         return <Error404 />
     }
 
-    function Form() {
+    function Form(props) {
         return (
             <div className="d-flex flex-column justify-content-center align-content-center col-12">
                 <h1 className="fs-3 text-center">Formulaire de contact</h1>
                 <form className="d-flex flex-column justify-content-center align-items-center gap-2">
-                    <input className="col-10 p-3 rounded-1" type="text" placeholder="Nom"/>
-                    <input className="col-10 p-3 rounded-1" type="text" placeholder="Objet"/>
-                    <textarea className="col-10 p-3 rounded-1" placeholder="Message" cols="10"/>
+                    <input className="col-10 p-3 rounded-1" name="Nom" type="text" placeholder="Nom"/>
+                    <input className="col-10 p-3 rounded-1" name="Objet" type="text" placeholder="Objet"/>
+                    <textarea className="col-10 p-3 rounded-1" name="Message" placeholder="Message" cols="10"/>
 
-                    <button type="button" className="btn btn-success">Envoyer</button>
+                    <button type="submit" className="btn btn-success">Envoyer</button>
                 </form>
             </div>
         )
@@ -64,7 +64,7 @@ export default function EntrepriseDetailPage () {
 
 
             <article className="article-form col-11 p-3 mb-3 d-flex flex-column align-items-center rounded-bottom-2">
-                {entreprise.website === "" && <Form />}
+                {entreprise.website === "" && <Form email={entreprise.email} />}
                 {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
             </article>
         </section>
