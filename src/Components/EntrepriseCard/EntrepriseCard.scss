@@ -12,3 +12,8 @@ p {
   cursor: pointer;
 }
 
+a {
+  &:hover {
+    box-shadow: 0 0 10px #0074c7;
+  }
+}
