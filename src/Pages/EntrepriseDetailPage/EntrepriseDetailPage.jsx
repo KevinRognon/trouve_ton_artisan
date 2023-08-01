@@ -66,7 +66,7 @@ export default function EntrepriseDetailPage () {
                 </article>
 
 
-                <article className="article-form col-11 col-lg-6 p-3 d-flex flex-column align-items-center rounded-bottom-2">
+                <article className="article-form col-11 col-lg-6 p-3 d-flex flex-column align-items-center justify-content-center rounded-bottom-2">
                     {entreprise.website === "" && <Form />}
                     {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
                 </article>

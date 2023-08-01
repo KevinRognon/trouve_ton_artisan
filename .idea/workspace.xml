@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971ae0ce-57d2-4b42-853e-76b2acfbca3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/EntrepriseDetailPage/EntrepriseDetailPage.jsx" afterDir="false" />
     </list>
@@ -72,7 +71,7 @@
       <recent name="C:\Users\Admin\Desktop\Trouve_ton_artisan\trouve_ton_artisan\src\Pages\Services" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Footer.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" working-dir="$PROJECT_DIR$/src/Components/Footer">
       <method v="2" />
     </configuration>
@@ -127,6 +126,7 @@
       <workItem from="1690822116915" duration="2471000" />
       <workItem from="1690829234099" duration="3430000" />
       <workItem from="1690839025184" duration="6000" />
+      <workItem from="1690889412574" duration="44000" />
     </task>
     <servers />
   </component>
