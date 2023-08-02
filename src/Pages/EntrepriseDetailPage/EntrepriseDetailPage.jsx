@@ -3,6 +3,7 @@ import data from '../../assets/Data/datas.json';
 import EntrepriseDetail from "../../Components/EntrepriseDetail/EntrepriseDetail";
 import React from "react";
 import Error404 from "../404/Error404";
+import nodemailer from 'nodemailer';
 
 import './EntrepriseDetailPage.scss';
 
@@ -19,10 +20,43 @@ export default function EntrepriseDetailPage () {
     }
 
     function Form(props) {
+
+        const handleSubmit = async (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+            const nom = formData.get('Nom');
+            const objet = formData.get('Objet');
+            const message = formData.get('Message');
+
+            const transporter = nodemailer.createTransport({
+                host: "localhost",
+                port: 1025,
+                ignoreTLS: true
+            });
+
+            try {
+                await transporter.sendMail({
+                    from: "noreply@gmail.com",
+                    to: `${props.email}`,
+                    subject: objet,
+                    text: `De: ${nom}\n\nMessage: ${message}`
+
+                });
+
+                event.target.reset();
+                alert("L'email a bien été envoyé. Vous pouvez le voir sur l'application MailDev");
+            }
+            catch (error) {
+                console.error("Erreur lors de l'envoi du mail: ", error);
+                alert("Une erreur est survenue lors de l'envoi du mail.");
+            }
+        }
+
         return (
             <div className="d-flex flex-column justify-content-center align-content-center col-12">
                 <h1 className="fs-3 text-center">Formulaire de contact</h1>
-                <form className="d-flex flex-column justify-content-center align-items-center gap-2">
+                <form action="http://localhost:1080/email" className="d-flex flex-column justify-content-center align-items-center gap-2">
                     <input className="col-10 p-3 rounded-1" name="Nom" type="text" placeholder="Nom"/>
                     <input className="col-10 p-3 rounded-1" name="Objet" type="text" placeholder="Objet"/>
                     <textarea className="col-10 p-3 rounded-1" name="Message" placeholder="Message" cols="10"/>
@@ -64,12 +98,12 @@ export default function EntrepriseDetailPage () {
                         />
                     }
                 </article>
-            </div>
 
-            <article className="article-form col-11 p-3 mb-3 d-flex flex-column align-items-center rounded-bottom-2">
-                {entreprise.website === "" && <Form email={entreprise.email} />}
-                {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
-            </article>
+                <article className="article-form col-11 col-lg-6 p-3 d-flex flex-column align-items-center rounded-bottom-2">
+                    {entreprise.website === "" && <Form email={entreprise.email} />}
+                    {entreprise.website !== "" && <ShowWebsite website={entreprise.website} />}
+                </article>
+            </div>
         </section>
     )
 }

@@ -1,3 +1,7 @@
+import 'stream-browserify';
+import http from 'stream-http';
+import process from "process/browser";
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
