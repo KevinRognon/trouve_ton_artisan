@@ -64,7 +64,7 @@ export default function EntrepriseDetailPage () {
                         />
                     }
                 </article>
-
+            </div>
 
             <article className="article-form col-11 p-3 mb-3 d-flex flex-column align-items-center rounded-bottom-2">
                 {entreprise.website === "" && <Form email={entreprise.email} />}
