@@ -3,9 +3,8 @@ require('dotenv').config();
 const express = require('express');
 const nodemailer = require('nodemailer');
 const app = express();
-const PORT = 5000; // Choisissez le port que vous souhaitez utiliser
+const PORT = 5000;
 
-// Middleware pour parser le corps des requêtes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -13,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.post('/send-email', (req, res) => {
     const { nom, objet, message } = req.body;
 
-    // Configuration du transporteur SMTP (utilisez vos propres informations)
+    // Configuration du transporteur SMTP
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -24,8 +23,8 @@ app.post('/send-email', (req, res) => {
 
     // Définition du contenu de l'e-mail
     const mailOptions = {
-        from: 'votre_adresse_email@gmail.com',
-        to: 'destination@example.com', // Adresse e-mail de destination
+        from: process.env.EMAIL_USER,
+        to: ``, // Adresse e-mail de destination
         subject: objet,
         text: `Nom: ${nom}\n\nMessage: ${message}`
     };
@@ -34,7 +33,7 @@ app.post('/send-email', (req, res) => {
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
             console.log(error);
-            res.status(500).send('Une erreur est survenue lors de l\'envoi de l\'e-mail.');
+            res.status(500).send("Une erreur est survenue lors de l'envoi de l'e-mail.");
         } else {
             console.log('E-mail envoyé : ' + info.response);
             res.status(200).send('E-mail envoyé avec succès !');

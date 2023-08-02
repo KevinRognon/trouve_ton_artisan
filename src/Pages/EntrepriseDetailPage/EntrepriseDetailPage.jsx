@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom";
 import data from '../../assets/Data/datas.json';
 import EntrepriseDetail from "../../Components/EntrepriseDetail/EntrepriseDetail";
-import React from "react";
+import React, {useState} from "react";
 import Error404 from "../404/Error404";
+import axios from 'axios';
 
 import './EntrepriseDetailPage.scss';
 
@@ -20,10 +21,27 @@ export default function EntrepriseDetailPage () {
 
     function Form(props) {
 
+        const [nom, setNom] = useState("");
+        const [objet, setObjet] = useState("");
+        const [message, setMessage] = useState("");
+
+        function HandleSubmit (e) {
+            e.preventDefault();
+
+            axios.post('/send-email', {nom, objet, message})
+                .then((response) => {
+                    console.log(response.data);
+
+                })
+                .catch((error) => {
+                    console.log(error)
+                })
+        }
+
         return (
             <div className="d-flex flex-column justify-content-center align-content-center col-12">
                 <h1 className="fs-3 text-center">Formulaire de contact</h1>
-                <form action="http://localhost:1080/#/email" className="d-flex flex-column justify-content-center align-items-center gap-2">
+                <form onSubmit={HandleSubmit} className="d-flex flex-column justify-content-center align-items-center gap-2">
                     <input className="col-10 p-3 rounded-1" name="Nom" type="text" placeholder="Nom"/>
                     <input className="col-10 p-3 rounded-1" name="Objet" type="text" placeholder="Objet"/>
                     <textarea className="col-10 p-3 rounded-1" name="Message" placeholder="Message" cols="10"/>
