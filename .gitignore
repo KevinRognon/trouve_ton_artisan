@@ -26,3 +26,10 @@ yarn-debug.log*
 yarn-error.log*
 .idea/workspace.xml
 *.xml
+.vs/slnx.sqlite
+.idea/workspace.xml
+.vs/ProjectSettings.json
+.vs/trouve_ton_artisan/FileContentIndex/read.lock
+.vs/trouve_ton_artisan/FileContentIndex/9865ba0a-19f7-4a2f-ad6c-07b2775bc3b3.vsidx
+*.vsidx
+.idea/workspace.xml
