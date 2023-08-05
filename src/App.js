@@ -14,7 +14,7 @@ import Accessibilite from "./Pages/Accessibilite/Accessibilite";
 import Cookies from "./Pages/Cookies/Cookies";
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
         <BrowserRouter>
@@ -38,4 +38,3 @@ function App() {
   );
 }
 
-export default App;

@@ -4,7 +4,7 @@ import './header.scss';
 import {useState} from "react";
 import {gsap} from "gsap";
 import HeaderModal from "./Header-Modal";
-import {Link, NavLink, Outlet} from "react-router-dom";
+import { NavLink, Outlet} from "react-router-dom";
 import Footer from "../Footer/Footer";
 
 
