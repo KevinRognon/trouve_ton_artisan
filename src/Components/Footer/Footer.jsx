@@ -33,7 +33,7 @@ export default function Footer () {
                         </div>
                         <div className="px-4">
                             <address>
-                                <a href="https://goo.gl/maps/VhjFzGt2eiHdM4AV6" target="_blank">101 cours Charlemagne CS 20033 69269 LYON CEDEX 02 FRANCE</a>
+                                <a href="https://goo.gl/maps/VhjFzGt2eiHdM4AV6">101 cours Charlemagne CS 20033 69269 LYON CEDEX 02 FRANCE</a>
                             </address>
                             <a href="tel:+33426734000">+33 (0)4 26 73 40 00</a>
                         </div>

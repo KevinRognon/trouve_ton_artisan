@@ -21,21 +21,8 @@ export default function EntrepriseDetailPage () {
 
     function Form(props) {
 
-        const [nom, setNom] = useState("");
-        const [objet, setObjet] = useState("");
-        const [message, setMessage] = useState("");
-
         function HandleSubmit (e) {
-            e.preventDefault();
 
-            axios.post('/send-email', {nom, objet, message})
-                .then((response) => {
-                    console.log(response.data);
-
-                })
-                .catch((error) => {
-                    console.log(error)
-                })
         }
 
         return (
