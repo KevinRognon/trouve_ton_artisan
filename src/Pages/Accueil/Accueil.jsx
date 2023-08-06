@@ -41,7 +41,7 @@ export default function Accueil () {
             <section className="d-flex flex-column justify-content-center align-items-center text-center mt-4 pb-5">
                 <h1 className="mb-5 col-12 p-2">Comment trouver mon artisan ?</h1>
 
-                <div className="d-flex flex-column flex-md-row justify-content-md-center align-items-stretch gap-3 gap-lg-0 col-md-10 col-lg-9 col-xl-4">
+                <div className="d-flex flex-column flex-md-row justify-content-md-center align-items-stretch gap-3 gap-lg-0 gap-xl-4 col-md-10 col-lg-9 col-xl-4">
                     <Etape number="1" indication="Choisir une catégorie d'artisanat dans le menu."/>
 
                     <Etape number="2" indication="Choisir un artisan."/>
