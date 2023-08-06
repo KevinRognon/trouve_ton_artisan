@@ -1,10 +1,8 @@
 import { useParams } from "react-router-dom";
 import data from '../../assets/Data/datas.json';
 import EntrepriseDetail from "../../Components/EntrepriseDetail/EntrepriseDetail";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import Error404 from "../404/Error404";
-import axios from 'axios';
-
 import './EntrepriseDetailPage.scss';
 
 
@@ -14,6 +12,11 @@ export default function EntrepriseDetailPage () {
     const params = useParams();
 
     const entreprise = data.find((entreprise) => entreprise.name === params.name);
+    const page_title = entreprise.specialty + " - " + entreprise.name;
+
+    useEffect(() => {
+        document.title = page_title;
+    })
 
     if (!entreprise) {
         return <Error404 />

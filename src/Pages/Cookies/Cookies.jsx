@@ -1,6 +1,11 @@
+import {useEffect} from "react";
 
 
 export default function Cookies () {
+
+    useEffect(() => {
+        document.title = "Cookies";
+    })
 
     return (
         <div>

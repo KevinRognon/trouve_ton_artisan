@@ -4,11 +4,15 @@ import data from '../../assets/Data/datas.json';
 
 import './Alimentation.scss';
 import EntrepriseCard from "../../Components/EntrepriseCard/EntrepriseCard";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export default function Alimentation () {
 
     const [inputResearch, setInputResearch] = useState("");
+
+    useEffect(() => {
+        document.title = "Alimentation";
+    })
 
     const handleInputChange = (e) => {
         let valeur = e.target.value;

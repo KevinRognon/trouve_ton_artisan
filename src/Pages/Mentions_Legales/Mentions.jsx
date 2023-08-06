@@ -1,10 +1,15 @@
+import {useEffect} from "react";
 
 
 export default function Mentions() {
 
+    useEffect(() => {
+        document.title = "Mentions lÃ©gales";
+    })
+
     return (
         <div>
-            <h1>Mentions légales</h1>
+            <h1>Mentions lï¿½gales</h1>
         </div>
         )
 }

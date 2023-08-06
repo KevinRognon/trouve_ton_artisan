@@ -1,10 +1,15 @@
+import {useEffect} from "react";
 
 
 export default function Donnee() {
 
+    useEffect(() => {
+        document.title = "DonnÃ©es personnelles";
+    })
+
     return (
         <div>
-            <h1>Donnée personnelles</h1>
+            <h1>Donnï¿½e personnelles</h1>
         </div>
         )
 }

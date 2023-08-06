@@ -4,11 +4,15 @@ import data from '../../assets/Data/datas.json';
 
 import './Fabrication.scss';
 import EntrepriseCard from "../../Components/EntrepriseCard/EntrepriseCard";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export default function Fabrication () {
 
     const [inputResearch, setInputResearch] = useState("");
+
+    useEffect(() => {
+        document.title = "Fabrication";
+    })
 
     const handleInputChange = (e) => {
         let valeur = e.target.value;
