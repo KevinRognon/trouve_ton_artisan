@@ -23,15 +23,10 @@ export default function EntrepriseDetailPage () {
     }
 
     function Form(props) {
-
-        function HandleSubmit (e) {
-
-        }
-
         return (
             <div className="d-flex flex-column justify-content-center align-content-center col-12">
                 <h1 className="fs-3 text-center">Formulaire de contact</h1>
-                <form onSubmit={HandleSubmit} className="d-flex flex-column justify-content-center align-items-center gap-2">
+                <form className="d-flex flex-column justify-content-center align-items-center gap-2">
                     <input className="col-10 p-3 rounded-1" name="Nom" type="text" placeholder="Nom"/>
                     <input className="col-10 p-3 rounded-1" name="Objet" type="text" placeholder="Objet"/>
                     <textarea className="col-10 p-3 rounded-1" name="Message" placeholder="Message" cols="10"/>
