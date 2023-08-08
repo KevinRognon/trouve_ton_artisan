@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import data from '../../assets/Data/datas.json';
 import EntrepriseDetail from "../../Components/EntrepriseDetail/EntrepriseDetail";
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import Error404 from "../404/Error404";
 import './EntrepriseDetailPage.scss';
 
