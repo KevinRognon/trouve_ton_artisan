@@ -7,6 +7,7 @@ import {useEffect, useState} from "react";
 
 
 import './Accueil.scss';
+import Meta from "../../Meta/Meta";
 
 export default function Accueil () {
 
@@ -16,6 +17,8 @@ export default function Accueil () {
     let [troisEntreprises, setEntreprises]   = useState([]);
 
     useEffect(() => {
+
+
 
         tableauEntreprises = [];
 
@@ -38,6 +41,7 @@ export default function Accueil () {
 
     return (
         <>
+            <Meta title="Trouve ton artisan" content="Trouvez facilement votre entreprise en recherchant votre artisan sur notre site" />
             <section className="d-flex flex-column justify-content-center align-items-center text-center mt-4 pb-5">
                 <h1 className="mb-5 col-12 p-2">Comment trouver mon artisan ?</h1>
 
